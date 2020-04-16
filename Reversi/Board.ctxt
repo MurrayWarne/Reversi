@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Board
+comment0.text=\r\n\ Board\ Class\r\n\r\n\ @author\ Murray\ Warne\r\n\ @version\ V1.0\r\n
+comment1.params=
+comment1.target=Board()
+comment1.text=\r\n\ Adds\ the\ jbuttons\ to\ the\ board\r\n
+comment2.params=
+comment2.target=javax.swing.JPanel\ getPanel()
+numComments=3

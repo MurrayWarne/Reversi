@@ -8,6 +8,7 @@ import javax.swing.*;
  */
 public class Reversi
 {
+    
     /**
      * Constructor for objects of class Reversi
      */
@@ -15,6 +16,7 @@ public class Reversi
     {
         // initialise instance variables
         makeFrame();
+        
     }
 
     /**
@@ -22,12 +24,12 @@ public class Reversi
      */
     private void makeFrame()
     {
+        Board board = new Board();
         JFrame frame = new JFrame("Reversi"); // Creates a frame named reversi
         JPanel player = makePlayerPanel(); // Sets the Player Panel to a jpanel called player
-        JPanel board = new JPanel(new BorderLayout()); // Creates the JPanel to hold the game board
         JLabel status = new JLabel("Please enter your names and press start to continue"); // Label to hold the status bar
         frame.add(player, BorderLayout.EAST); // Adds the score to the right of the frame
-        frame.add(board, BorderLayout.CENTER); // adds the board to the left of the frame
+        frame.add(board.getPanel(), BorderLayout.CENTER); // adds the board to the left of the frame
         frame.add(status,BorderLayout.SOUTH); // Adds the status to the bottom of the board
         frame.pack();
         frame.setVisible(true); // Makes the frame visible
