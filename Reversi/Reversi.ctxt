@@ -6,5 +6,5 @@ comment1.target=Reversi()
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Reversi\r\n
 comment2.params=
 comment2.target=void\ makeFrame()
-comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
+comment2.text=\r\n\ This\ is\ used\ to\ create\ the\ frame\ used\ for\ the\ main\ game\ board\r\n
 numComments=3
